@@ -25,4 +25,21 @@ See the Description file attached to the repository for further details on the d
 # classifier
 Random forest is a type of supervised machine learning algorithm based on ensemble learning. Ensemble learning is a type of learning where you join different types of algorithms or same algorithm multiple times to form a more powerful prediction model. The random forest algorithm combines multiple algorithm of the same type i.e. multiple decision trees, resulting in a forest of trees, hence the name "Random Forest". The random forest algorithm can be used for both regression and classification tasks
 
+# Steps for building the model
+
+1.Import Libraries
+2.Importing Dataset
+3.Exploring dataset
+    assigning columns names to data 
+    making data exploration by pairplot
+    creating dummy variables for the categorical features
+3.Preparing Data For Training
+     spliting dataset
+4.Training the Algorithm
+     building random forest classifer
+5.Evaluating the Algorithm
+     confusion matrix
+     ROC curve
+     
+
 
