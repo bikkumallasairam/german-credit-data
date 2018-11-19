@@ -5,21 +5,21 @@
 # Dataset
 The dataset consists of 1000 datatpoints each with 20 variables (dimensions) 7 are numerical and 13 are categorical. The categorical data is encoded according to terms which have meaning to the bankers such as current employment timeframe:
 
-A71 : unemployed
-A72 : ... < 1 year
-A73 : 1 <= ... < 4 years
-A74 : 4 <= ... < 7 years
-A75 : .. >= 7 years
+A71 : unemployed <br />
+A72 : ... < 1 year <br />
+A73 : 1 <= ... < 4 years <br />
+A74 : 4 <= ... < 7 years <br />
+A75 : .. >= 7 years <br />
 Or what kind of housing the person has:
 
-A151 : rent
-A152 : own
-A153 : for free
+A151 : rent <br />
+A152 : own<br />
+A153 : for free<br />
 Other data provided in the dataset contains numerical information such as:
 
 Duration of the loan in months
-Credit amount
-Age in years
+Credit amount<br />
+Age in years<br />
 See the Description file attached to the repository for further details on the data. Source:https://archive.ics.uci.edu/ml/datasets/Statlog+%28German+Credit+Data%29
 
 # classifier
@@ -27,19 +27,22 @@ Random forest is a type of supervised machine learning algorithm based on ensemb
 
 # Steps for building the model
 
-1.Import Libraries
-2.Importing Dataset
+1.Import Libraries<br />
+2.Importing Dataset<br />
 3.Exploring dataset
-    assigning columns names to data 
-    making data exploration by pairplot
-    creating dummy variables for the categorical features
-3.Preparing Data For Training
-     spliting dataset
-4.Training the Algorithm
-     building random forest classifer
-5.Evaluating the Algorithm
-     confusion matrix
-     ROC curve
+   * assigning columns names to data <br />
+   * making data exploration by pairplot<br />
+   * creating dummy variables for the categorical features
+   
+4.Preparing Data For Training
+   * spliting dataset
+   
+5.Training the Algorithm
+   * building random forest classifer
+   
+6.Evaluating the Algorithm
+   * confusion matrix<br />
+   * ROC curve
      
 
 
